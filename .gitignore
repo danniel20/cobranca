@@ -1,7 +1,8 @@
-# Ignore everything
-*
-
-# But not these files...
-!.gitignore
-!.pom.xml
-!/src
+.settings*
+*.classpath
+*.project
+*.metadata
+target*
+bin*
+data*
+.mvn*
